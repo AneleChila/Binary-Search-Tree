@@ -1,0 +1,20 @@
+PROBLEM DESCRIPTION:
+
+The problem at hand is to write an Electronic Telephone Directory application in java. A Binary Search Tree(BST) will be used as an internal data structure which will help to store data, add data, search for and delete data if needs be. Already given is a datafile containing details of a people (i.e adress, telephone numberand full name ) . The file is an unsorted datafile with details(fields) seperated by vertical bars, "|" . The directory needs to be loaded by full names as keys and full entry as data .
+
+Specfic applications to be included are : 
+ 
+PrintIt to load the data from datafile to a BST, traverses the data and print out a sorted list in order of full names, starting with name. Duplicates are to be arranged in any order in the listing , and not treated as one person .
+
+SearchIt seeks to find an entry based on a full name . The application reads a list of queries from a queryfile . If the names on query file are not found , applications returns , "Not found". However if the name is found , full entry returned.
+
+SearchItLinear has the same functionality as SearchIt, it   however replaces the BST with an array .
+
+The SearchIt and SearchItLinear aplplications are then compared on speed differences on Unix time application to see which is actualy Faster.
+
+
+APPLICATION DESIGN:
+
+Println:
+
+The Scanner class is used to read a fie , replace argument system.in(in Scaner Class)  with stream notion. Class FileInputStream is used tto convert file name into into scanner constructor.
