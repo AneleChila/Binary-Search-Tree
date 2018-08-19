@@ -1,6 +1,6 @@
-// Hussein's Binary Tree
+// Anele Chila
 // 26 March 2017
-// Hussein Suleman
+
 
 public class BinaryTree<dataType>
 {
